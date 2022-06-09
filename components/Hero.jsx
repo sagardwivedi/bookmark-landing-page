@@ -9,10 +9,8 @@ const Hero = () => {
         <div className="absolute top-[22%] right-0 -z-50 h-[12rem] w-[78%] rounded-l-full bg-soft-blue" />
       </div>
       <article className="space-y-5 pt-6 text-center">
-        <h1 className="text-3xl font-medium text-dark-blue">
-          A Simple Bookmark Manager
-        </h1>
-        <p className="text-grayish-blue line-clamp-4">
+        <h1>A Simple Bookmark Manager</h1>
+        <p className="line-clamp-4">
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>

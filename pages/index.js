@@ -1,13 +1,18 @@
-import { Features, Hero, Navbar } from "../components";
+import Head from "next/head";
+import { Download, Features, Hero, Navbar } from "../components";
 
 const index = () => {
   return (
     <div>
-      <header className="mx-auto w-[85%]">
+      <Head>
+        <title>BookMark | Home</title>
+      </Head>
+      <div className="mx-auto w-[85%]">
         <Navbar />
         <Hero />
         <Features />
-      </header>
+        <Download />
+      </div>
     </div>
   );
 };

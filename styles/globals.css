@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  h1 {
+    @apply text-2xl font-medium text-dark-blue;
+  }
+
+  p {
+    @apply text-grayish-blue;
+  }
 
   .btn-primary {
     @apply rounded bg-soft-blue p-3 font-medium text-white shadow;

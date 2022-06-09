@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Image from "next/image";
 import { Tab } from "@headlessui/react";
 
@@ -49,8 +48,8 @@ const Features = () => {
   return (
     <div className="h-screen">
       <article className="text-center">
-        <h2 className="text-3xl font-medium text-dark-blue">Features</h2>
-        <p className="mt-4 mb-10 text-grayish-blue">
+        <h1>Features</h1>
+        <p className="mt-4 mb-10 ">
           Our aim is to make it quick and easy for you to access your favourite
           websites. Your bookmarks sync between your devices so you can access
           them on the go.
@@ -80,12 +79,8 @@ const Features = () => {
                     <Image src={tab.img} alt={tab.title} />
                     <div className="absolute top-[17%] -left-8 -z-50 h-[13rem] w-[98%] rounded-r-full bg-soft-blue" />
                   </div>
-                  <h3 className="my-2 text-3xl font-medium text-dark-blue">
-                    {tab.title}
-                  </h3>
-                  <p className="mt-4 mb-10 text-grayish-blue line-clamp-4">
-                    {tab.description}
-                  </p>
+                  <h1 className="my-2">{tab.title}</h1>
+                  <p className="mt-4 mb-10 line-clamp-4">{tab.description}</p>
                 </div>
               </Tab.Panel>
             ))}
