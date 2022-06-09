@@ -17,7 +17,7 @@ const Hero = () => {
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
       </article>
-      <div className="mt-8 space-x-2">
+      <div className="mt-8 space-x-4">
         <button className="btn-primary">Get it on Chrome</button>
         <button className="btn-secondary">Get it on Firefox</button>
       </div>
