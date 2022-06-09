@@ -1,6 +1,4 @@
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-
+import { Features, Hero, Navbar } from "../components";
 
 const index = () => {
   return (
@@ -8,6 +6,7 @@ const index = () => {
       <header className="mx-auto w-[85%]">
         <Navbar />
         <Hero />
+        <Features />
       </header>
     </div>
   );

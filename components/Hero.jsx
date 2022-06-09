@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="mb-[5rem]">
       <div className="my-8">
-        <Image src={HeroImage} property="true" layout="responsive" alt="Hero" />
-        <div className="absolute top-[22%] right-0 -z-50 h-[12rem] w-[80%] rounded-l-full bg-soft-blue" />
+        <Image src={HeroImage} alt="Hero" />
+        <div className="absolute top-[22%] right-0 -z-50 h-[12rem] w-[78%] rounded-l-full bg-soft-blue" />
       </div>
       <article className="space-y-5 pt-6 text-center">
         <h1 className="text-3xl font-medium text-dark-blue">
@@ -17,7 +17,7 @@ const Hero = () => {
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
       </article>
-      <div className="mt-8 space-x-4">
+      <div className="mt-10 flex flex-row items-center justify-between">
         <button className="btn-primary">Get it on Chrome</button>
         <button className="btn-secondary">Get it on Firefox</button>
       </div>
