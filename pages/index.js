@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { Download, Features, Hero, Navbar } from "../components";
+import {
+  ContactUs,
+  Download,
+  FAQ,
+  Features,
+  Footer,
+  Hero,
+  Navbar,
+} from "../components";
 
 const index = () => {
   return (
@@ -12,6 +20,11 @@ const index = () => {
         <Hero />
         <Features />
         <Download />
+        <FAQ />
+        <div className="absolute inset-x-0 w-screen">
+          <ContactUs />
+          <Footer />
+        </div>
       </div>
     </div>
   );

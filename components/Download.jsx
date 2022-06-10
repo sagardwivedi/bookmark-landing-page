@@ -41,11 +41,11 @@ const Download = () => {
         {cardData.map((card) => (
           <div
             key={card.id}
-            className="my-4 flex flex-col items-center justify-center rounded-lg shadow-lg"
+            className="my-4 flex flex-col items-center justify-center rounded-lg pt-4 shadow-xl"
           >
             <Image src={card.img} alt={card.title} />
-            <h1>{card.title}</h1>
-            <p className="mb-4">{card.description}</p>
+            <h1 className="mt-8">{card.title}</h1>
+            <p className="mb-8">{card.description}</p>
             <Image src={card.divider} alt={card.title} />
             <button className="btn-primary my-4">
               Add & Install Extension
