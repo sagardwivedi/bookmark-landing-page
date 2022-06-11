@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import BrandLogo from "../public/logo-bookmark.svg";
+import BrandLogo from "../public/logo-bookmark-w.svg";
 import FacebookIcon from "../public/icon-facebook.svg";
 import TwitterIcon from "../public/icon-twitter.svg";
 

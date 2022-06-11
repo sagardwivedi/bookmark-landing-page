@@ -21,7 +21,7 @@ const index = () => {
         <Features />
         <Download />
         <FAQ />
-        <div className="absolute inset-x-0 w-screen">
+        <div className="absolute inset-x-0">
           <ContactUs />
           <Footer />
         </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
       <div>
         <Menu>
           <Menu.Button>
-            <Image src={IconMenuOpen} layout="fixed" alt="Open Menu" />
+            <Image src={IconMenuOpen} alt="Open Menu" />
           </Menu.Button>
           <div className="mx-auto w-[85%]">
             <Menu.Items
