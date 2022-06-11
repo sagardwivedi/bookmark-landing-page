@@ -7,11 +7,11 @@ import TwitterIcon from "../public/icon-twitter.svg";
 const Footer = () => {
   return (
     <div className="bg-dark-blue">
-      <div className="flex flex-col items-center justify-between text-white">
-        <Image src={BrandLogo} className="fill-white" alt="Brand Logo" />
-        <ul>
+      <div className="flex flex-col items-center justify-between space-y-10 py-10">
+        <Image src={BrandLogo} alt="Brand Logo" />
+        <ul className="space-y-5 tracking-widest text-white">
           <li>
-            <h2>Feature</h2>
+            <h2>FEATURE</h2>
           </li>
           <li>
             <h2>PRICING</h2>
@@ -20,8 +20,10 @@ const Footer = () => {
             <h2>CONTACT</h2>
           </li>
         </ul>
-        <Image src={FacebookIcon} alt="" />
-        <Image src={TwitterIcon} alt="" />
+        <div className="flex w-[25%] flex-row items-center justify-between">
+          <Image src={FacebookIcon} alt="" />
+          <Image src={TwitterIcon} alt="" />
+        </div>
       </div>
     </div>
   );

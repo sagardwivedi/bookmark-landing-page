@@ -31,7 +31,7 @@ const cardData = [
 
 const Download = () => {
   return (
-    <div className="mt-[14rem] text-center">
+    <div className="text-center">
       <h1>Download the extension</h1>
       <p className="mt-2">
         We’ve got more browsers in the pipeline. Please do let us know if you’ve
